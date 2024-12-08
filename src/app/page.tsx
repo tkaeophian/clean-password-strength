@@ -1,5 +1,5 @@
-import { VersionOne } from "./features/version-one/version-one";
-import { VersionTwo } from "./features/version-two/version-two";
+import { VersionOne } from "@/features/version-one/version-one";
+import { VersionTwo } from "@/features/version-two/version-two";
 
 export default function Home() {
   return (
