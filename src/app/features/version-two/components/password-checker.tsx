@@ -5,8 +5,7 @@ import { StrengthIndicator } from "./strength-indicator";
 import { PasswordRequirements } from "./password-requirements";
 import { calculatePasswordStrength } from "../calculate-password-strength";
 
-type Props = {};
-export const PasswordChecker = ({}: Props) => {
+export const PasswordChecker = () => {
   const [password, setPassword] = useState<string>("");
   const strength = calculatePasswordStrength(password);
   return (
