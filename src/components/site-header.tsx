@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { LayoutGrid } from "lucide-react";
 import { Icons } from "./icons";
 import { Button } from "./ui/button";
 
